@@ -1,2 +1,2 @@
 # CSE485_2023
-First Project
+Chìa khoá dẫn đến sự thành công là sự chịu khó và cố gắng
