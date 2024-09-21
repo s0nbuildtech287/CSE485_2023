@@ -1,1 +1,1 @@
-Thầy hiếu đẹp trai
+Tryhard
