@@ -26,7 +26,7 @@
                     <a class="nav-link active" aria-current="page" href="./">Trang chủ</a>
                     </li>
                     <li class="nav-item">
-                     <!-- chuyển sang trang login -->
+                     <!-- chuyển sang trang login! -->
                     <a class="nav-link" href="../app/views/login/login.php">Đăng nhập</a>
                     </li>
                 </ul>
