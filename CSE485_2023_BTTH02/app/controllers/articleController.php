@@ -16,7 +16,7 @@ class ArticleController {
     
     // Thêm bài viết mới
     public function store($tieude, $ten_bhat, $ma_tloai, $tomtat, $noidung, $ma_tgia, $ngayviet, $hinhanh) {
-        // Check if the required fields are provided
+        // kiểm tra trường còn trống
         if (!empty($tieude) && !empty($ten_bhat) && !empty($ma_tloai) && !empty($tomtat) && !empty($noidung) && !empty($ma_tgia) &&!empty($ngayviet)) {
             $result = $this->articleModel->addArticle($tieude, $ten_bhat, $ma_tloai, $tomtat, $noidung, $ma_tgia, $ngayviet, $hinhanh);
             if ($result) {
